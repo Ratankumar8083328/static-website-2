@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        body{
+            
+            background:url(img/box\ 1.jpg);
+            
+           
+        }
+        
+        .left{
+                  /* border: 2px solid green; */
+                  display: inline-block;
+                  position: absolute;
+                  width: 15%;
+                  left: 34px;
+                  top:34px
+            }
+            .mid{
+                 /* border: 2px solid yellow; */
+                 display: inlie-block;
+                 width: 71%;
+                 position: absolute;
+                 margin: 34px;
+                 left: 302px;
+                  background-color: white;
+                  border-radius: 10px   ;
+                  top: 20px;
+            }
+            
+            
+            .left img{
+                width: 203px;
+                height: 150px;
+                /* filter: invert(100); */
+            }
+            .left h5{
+                text-align: center;
+                margin: 0px;
+                color:#efff00;
+            }
+            .navbar{
+                background-color: red;
+                display:block;
+            }
+            .navBar li{
+                 display: inline-block;
+                
+                
+            }
+            .navBar li a {
+                text-decoration: none;
+                margin: 10px;
+              
+                color: black;
+                padding: 11px 44px;
+                border-radius: 10px;
+            }
+            .navBar li a:hover, .navBar li a:active{
+                background-color: black;
+                color:white;
+            }
+            .container{
+                margin: 4px;
+                display: flex;
+                
+                  /* border: 2px solid black; */
+                  width: 96%;
+                  margin: 285px 22px;
+            }
+            .box1{
+                font-size: 20px;
+                padding: 160px 9px 1px 78px;
+               text-align: center;
+                color: white    ;
+                height: 400px;
+                width: 40%;
+                /* border: 2px solid rgb(35, 241, 35); */
+                margin: 4px ;
+                margin-top: 4px;
+                background-color: rgb(8, 8, 48);
+                opacity: 0.6;
+            }
+            
+            .box2{
+                height: 400px;
+                width: 60%;
+                /* border: 2px solid rgb(35, 241, 35); */
+                margin: 4px ;
+                margin-top: 6px;
+                color: white;
+                height: 400px  ;
+                
+            }   
+            .container2{
+                  position: absolute;
+                  top:863px;
+                  width: 96%;
+                  /* border: 2px solid black; */
+                  display: flex;
+                  flex-wrap: wrap;
+            }
+                .box3{
+                    width: 40%;
+                    background-color: rgb(222, 240, 247);
+                    height: 509px;
+                    margin: 3px 3px;
+                    padding: 122px 10px;
+                    text-align: center;
+                    color: #00305b;
+                }
+                .box3 h1{
+                    font-size: 50px;
+                }
+                .box3 #box3{
+                    font-size:76px;
+                }
+                .box3 #box33{
+                    font-size: 30px;
+                }
+                .box4{
+                   width: 55%;
+                    background-color: whitesmoke;
+                    height: 671px;
+                    margin: 3px 0px;
+                padding: 42px 10px;
+                display: flex;
+                flex-wrap: wrap;
+                    /* text-align: center; */
+                }
+                .container3{
+                    /* border: 2px solid yellow; */
+                    height: 120px;
+                    width: 276px;
+                    margin:9px 31px;
+                    padding: 31px 2px;
+                    color: #0f4c85;
+                }
+            .box5{
+                /* border: 2px solid black; */
+                height:600px;
+                width: 1300px;
+                position: relative;
+                top: 482px;
+                background-color: #00305b;
+                text-align: center;
+                color: #ffffff;
+                font-size: 16px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center  ;
+            }
+            .container4 #Vision span{
+                   font-size: 42px;
+                    text-align: center;
+                    width: 200px;
+                    height: 50px;
+                    border: 2px solid green;
+            }
+            .p1{
+                width: 900px;
+                font-size: 18px;
+            }
+            .p0{
+                font-size: 42px;
+            }
+            .image1 img{
+                /* display: inline-block; */
+                /* border: 2px solid yellow; */
+                position: relative;
+                    top: 482px;
+                /* right: 4663px; */
+                width: 1335px;
+                    height: 750px;
+
+                /* width:100px; */
+                /* height:100px; */
+                /* display: flex; */
+                /* flex-wrap: wrap; */
+                /* object-fit: contain; */
+            }
+            .container5{
+                /* border: 2px solid black; */
+                width: 1335px;
+                height: 635px;
+                background-color: #eaf4f6;
+                position: relative;
+                top: 476px;
+                /* display: flex; */
+                /* justify-content: center; */
+                margin: 0px;
+            }
+            .img1 {
+                    /* border: 2px solid white; */
+                    width: 193px;
+                    height: 220px;
+                    margin: 40px;
+                    /* display: flex; */
+                    /* align-items: center; */
+                    font-style: letter spacing 0.02em;
+                    font-size: 20px;
+                    color: #00305b;
+                    
+                    text-align: center;
+            }
+            .img1 p{
+                text-align: center;
+                font-size: 16px;
+            }
+            .photo{
+                display: flex;
+                flex-direction: row;  
+                justify-content: center;
+                align-items: center;
+                
+            }
+           .attorneys{
+            
+                /* text-align: center; */
+                /* display: flex; */
+                /* justify-content: center; */
+                width: 100%;
+                margin:10px 10px;
+            }
+            .container6{
+                width: 1335px;
+                height: 600px;
+                /* border: 2px solid black; */
+                position: relative;
+                top:476px;
+                display: flex;
+            }
+            .box6{
+                width: 40%;
+                height: 676px;
+                /* border: 2px solid greenyellow; */
+                font-size: 42px;
+                color: rgba(255, 255, 255, 1)!important;
+                background-color:darkblue;
+                opacity: 0.75;
+                text-align: right;
+               
+            }
+            .box7{
+                /* border: 2px solid yellow; */
+                width: 60%;
+                height: 676px;
+                /* background-color:darkblue; */
+                /* opacity: 0.3; */
+                padding-left: 35px;
+               /* font-size: 20px; */
+                background-color: grey; 
+            }
+            .box7 p{
+                font-size: 20px;
+                font-weight: bold;
+                font-family: sans-serif, serif;
+                 
+            }
+            .box8{
+                width: 652px;
+                 height: 56px;
+                 /* border: 2px solid black; */
+                 /* font: 20px; */
+                color:white;
+                font-family: sans-serif, serif;
+            }
+            .box8 p{
+                font: 16px;
+                font-family: sans-serif, serif;
+            }
+            .box9{
+                  color: white;
+                      margin: 25px 4px;
+                      font: 16px;
+                      font-family: sans-serif, serif;
+            }
+            .box9 a{
+                color: white;
+                font-family: sans-serif, serif;
+                font-weight: bold;
+                background: transparent;
+                line-height: 1.5em;
+                 background-color: grey;
+            }
+            .box10{
+                 width:720px;
+                 height: 388px;
+                 /* border: 2px solid black; */
+                 background-color: grey;
+                 color: white;
+                 
+            }
+            .box10 p{
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .box10 form{
+                font-size: 20px;
+                /* display: flex; */
+                /* flex-direction:row; */
+                /* flex-wrap: wrap; */
+            }
+            .box10 form input{
+                height: 25px;
+                width: 273px;
+            }
+            .form-group{
+                padding: 6px;
+               margin:11px auto;
+            }
+            .box11{
+                /* border: 2px solid red; */
+                width: 50%;
+                height: 340px;
+            }
+            .box12{
+                /* border: 2px solid orange; */
+                width: 50%;
+                height: 340px;
+            }
+            .box13{
+                display: flex;
+            }
+            .btn  {
+                font-family: 'Playfair Display', serif;
+                margin: 0px 9px;
+                color: white;
+                background-color: black;
+                padding: 4px 16px;
+                border-radius: 10px;
+                font-size: 15px;
+                height: 30px;
+                width: 700px;
+            }
+            .btn:hover{
+                background-color: rgb(248, 248, 161);
+                color: black;
+            }
+    </style>
+</head>
+<body>
+    
+
+        <header>
+            <div class="left">
+               <img src="img/pexels-sora-shimazaki-5669619.jpg" alt="">
+               <h5>KNOLL & WATERS LLP</h5>
+            </div>
+            <div class="mid">
+               <nav class="navBar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Practice Area</a></li>
+                    <li><a href="#">Our Vision</a></li>
+                    <li><a href="#">Attorneys</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+               </nav>
+            </div>
+           
+        </header>
+   
+    <div class="container">
+          <div class="box1">
+                <h1>BOUTIQUE</h1>
+                <h3>LAW FARM</h3>
+                <p>Specializing in Commercial Law & <br> Litigation , Insolvency & Fraud</p>
+          </div>
+          <div class="box2">
+            i m box2
+            <video controls width="550" height="450">
+                <source src="video/Aaja Shaam Hone Aayi - Maine Pyar Kiya - Salman Khan, Bhagyashree - Classic Old _Full-HD.mp4" type="video/webm" />
+
+  <!-- <source src="/media/cc0-videos/flower.mp4" type="video/mp4" /> -->
+
+  <!-- Download the -->
+  <!-- <a href="/media/cc0-videos/flower.webm">WEBM</a> -->
+  <!-- or -->
+  <!-- <a href="/media/cc0-videos/flower.mp4">MP4</a> -->
+  video.
+            </video>
+      </div>              
+    </div>
+    <div class="container2">
+        <div class="box3">
+           <span id="box3">Practice</span>
+        </br><span id="box33">Areas</span> 
+        </div>
+        <div class="box4">
+                
+                <div class="container3">
+                    
+                    <ul>
+                        <li><h2>LITIGATION</h2></li>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. </p>
+                    </ul>
+                </div>
+                <div class="container3">
+                    
+                    <ul>
+                        <li><h2>INSOLVENCY</h2></li>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. </p>
+                    </ul>
+                </div>
+                <div class="container3">
+                    
+                    <ul>
+                        <li><h2>DISPUTE RESOLUTION</h2></li>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. </p>
+                    </ul>
+                </div>
+                <div class="container3">
+                    
+                    <ul>
+                        <li><h2>BUSINESS</h2></li>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. </p>
+                    </ul>
+                </div>
+                <div class="container3">
+                    
+                    <ul>
+                        <li><h2>FRAUD</h2></li>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. </p>
+                    </ul>
+                </div>
+                <div class="container3">
+                    
+                    <ul>
+                        <li><h2>TAX</h2></li>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. </p>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+        <div class="box5">
+              <div class="container4">
+                 <span class="p0">OUR VISION</span>
+              </div>
+              <div class="p1">
+
+                  <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+              </div>
+              <div class="p1">
+
+                  <p>This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
+              </div>
+              <div class="p1">
+
+                  <p>At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming Soon in Wixellaneous in Support. Feel free to tell us what you think and give us feedback in the Wix Forum.</p>
+              </div>    
+        </div>
+
+        <div class="image1">
+            <img src="img/pexels-cowomen-2041393.jpg" alt="">
+        </div>
+        
+        <div class="container5">
+            <div class="atttorneys">
+            <center><h2>OUR ATTORNEYS</h2></center>
+        </div>
+             <div class="photo">
+
+                 <div class="img1">
+                      <img src="img/img1.webp" alt="">
+                      <span>AIDEN WALTERS</span>    
+                      <p>PARTNER</p>
+                      <hr>
+                      <br>
+                      Tel: 123-456-7890
+                      <p>info@mysite.com</p>
+                 </div>
+                 <div class="img1">
+                       <img src="img/img2.webp" alt="">
+                       <span>JULIA KNOLL</span> 
+                       <p>PARTNER</p>
+                       <hr>
+                       <br>
+                       Tel: 123-456-7890
+                       <p>info@mysite.com</p>
+                 </div>
+                 <div class="img1">
+                       <img src="img/img3.jpg" alt="">
+                       <span>JAMES LOPEZ</span>
+                       <p>PARTNER</p>
+                       <hr> 
+                       <br>
+                       Tel: 123-456-7890
+                       <p>info@mysite.com</p>
+                 </div>
+             </div>
+        </div>
+        <div class="container6" >
+            <div class="box6">
+                  <SPAN>CONTACT</SPAN><BR><SPAN>KNOLL</SPAN><BR><SPAN>WALTERS</SPAN>
+            </div>
+
+            <div class="box7">
+                <div class="box8">
+                       <p>Our Address</p>
+                </div>
+                
+                <div class="box9">
+                    500 Terry Francine St. San Francisco, CA 94158​
+                    <br>
+                    <span style="font-weight: bold;">Email</span>: info@mysite.com<br>
+                    Tel: &nbsp;  123-456-7890<br><br>
+                    <a href="#">Click Here To Find Us</a>
+                </div>
+
+                <div class="box10">
+                    <p>For any general inquiries, please fill in the following contact form:</p>
+                    <div class="box13">
+
+                        <div class="box11">
+    
+                            <div ><br>
+                            <form>
+                               <div class="form-group">
+       
+                                   First Name*<br>
+                                   <input type="text" >
+                               </div>
+       
+                               <div class="form-group">
+                                   Last Name*<br>
+                                  <input type="text" >
+                               </div>
+       
+                               <div class="form-group">
+                                   Email*<br>
+                                  <input type="text" >
+                               </div>
+       
+                               <div class="form-group">
+                                   Subject*<br>
+                                  <input type="text" >
+                               </div>
+                            </form>
+                            </div>
+                            </div>
+                         <div class="box12">
+                            <div>
+                             <div class="form-group">
+                                <div>
+    
+                                    <form>
+        
+                                        Message*<br>
+                                        <textarea name="myText" cols="40" rows="15"></textarea>
+                                        
+                                    </form>
+                                </div>
+                             </div>
+                         </div>
+                    </div>
+                     
+                </div >
+
+                <div class="box14">
+
+                    <button class="btn">Submit</button>
+                </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
